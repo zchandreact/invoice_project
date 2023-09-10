@@ -1,15 +1,12 @@
 import BrandIcon from "../atoms/BrandIcon";
+import Navbar from "../organism/Navbar";
 
 function Header()
 {
     return(
         <div className="header_wrap">
-            <div>
-                <BrandIcon />
-            </div>
-            <ul>
-
-            </ul>
+            <BrandIcon />
+            <Navbar />
         </div>
     )
 }

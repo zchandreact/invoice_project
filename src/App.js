@@ -4,9 +4,7 @@ import Routing from './components/organism/Routing';
 
 function App() {
   return (
-    <div className="">
-      <Routing />
-    </div>
+    <Routing />
   );
 }
 
