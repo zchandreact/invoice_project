@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="">
       <Routing />
-      <h1>Hello Everyone</h1>
     </div>
   );
 }
